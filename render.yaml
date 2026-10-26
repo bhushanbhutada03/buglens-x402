@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: buglens-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build --workspace=server
+    startCommand: npm run start --workspace=server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8787
+      - key: MOCK_PAYMENTS
+        value: "false"
+      - key: X402_NETWORK
+        value: eip155:84532
+      - key: X402_ASSET
+        value: 0x036CbD53842c5426634e7929541eC2318f3dCF7e
+      - key: REPORT_PRICE
+        value: "100000"
+      - key: PAY_TO_ADDRESS
+        sync: false
+      - key: FACILITATOR_URL
+        value: https://api.x402.org/v2/x402
+      - key: CORS_ORIGINS
+        sync: false
+      - key: AI_API_KEY
+        sync: false
