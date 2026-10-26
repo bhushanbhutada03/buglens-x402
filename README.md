@@ -4,6 +4,10 @@
 
 ---
 
+## Application Preview
+
+![BugLens Homepage](client/public/buglens-homepage.png)
+
 ## 1. Problem & Use Case
 
 Developers frequently encounter cryptic stack traces, compiler errors, or unhandled promise rejections. Traditional AI coding assistants require recurring monthly subscriptions ($20–$50/mo), full account signups, or private API keys.
