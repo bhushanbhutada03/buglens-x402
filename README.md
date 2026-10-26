@@ -1,6 +1,5 @@
 # BugLens — Pay-Per-Use Debugging Assistant (Powered by x402)
 
-> **Teacher's Problem Statement:** *"Build an application that leverages x402 think of usecase and build. Submit the Github URL below. The project will be evaluated with same Judging to be fair for all."*
 
 ---
 
